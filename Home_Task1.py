@@ -17,16 +17,3 @@ elif (n == 7):
     print(f'{n} -> да, день является выходным!')
 else:
     print(f'{n} -> нет, день является рабочим!')
-
-
-#     Console.Clear();
-# Console.Write("Введите день недели: ");
-# int n = Convert.ToInt32(Console.ReadLine()); 
-# while (n <= 5 && n >= 1)
-# {
-#     Console.Write("Вы ошиблись!\nДень является будним\nВведите новый день недели: ");
-#     n = Convert.ToInt32(Console.ReadLine());    
-# }
-# if (n >= 6 && n <= 7)
-#     Console.WriteLine($"{n} -> День является выходным!");
-   
