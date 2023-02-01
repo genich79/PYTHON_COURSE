@@ -5,3 +5,20 @@
 # Input: 5
 # Output: 6
 
+import os
+os.system('cls')
+
+a = int(input('Введите число: '))
+
+fib1 = 0
+fib2 = 1
+list = [0, 1]
+n = 2
+while a > fib2:
+    # t = fib1
+    fib1, fib2 = fib2, fib1 + fib2
+    # fib2 = t + fib2
+    list.append(fib2)
+    n+=1
+print(f'Числа Фибоначчи:\n {list}')    
+print(f'Число {a} посчету {n}-ое число Фибоначчи' if a == fib2 else f'Код -1: Число {a} не является числом Фибоначчи')
